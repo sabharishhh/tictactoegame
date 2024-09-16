@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Game4</title>
+    <link rel="stylesheet" href="web.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="msg-container hide suse-font-family">
+        <div class="win hide">
+            <p id="msg">Winner!</p>
+        </div>
+
+        <div class="draw hide">
+            <p id="drw">Draw, Game has <br>No Winner...</p>
+
+        </div>
+        <button id="new-btn" class="ubuntu-bold">New Game</button>
+    </div>
+
+    <main>
+        <h1 class="protest-guerrilla-regular">Tic Tac Toe</h1>
+
+        <div class="container">
+            <div class="game">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <button id="reset-btn" class="ubuntu-bold">Reset Game</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

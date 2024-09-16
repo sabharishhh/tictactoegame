@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E3F2FD;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 6vmin;
+    font-size: 4rem;
+    color: #11151C;
+}
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.suse-font-family {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 8vmin;
+    color: #303036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFAFF;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #11151C;
+    color: #F7F3E3;
+    border: none;
+    border-radius: 1rem;
+    ;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #11151C;
+    color: #F7F3E3;
+    border: none;
+    border-radius: 1rem;
+    ;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+#msg {
+    font-size: 8vmin;
+    color: #2E4052;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.hide {
+    display: none;
+}
+
+#drw {
+    font-size: 8vmin;
+    color: #2E4052;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
